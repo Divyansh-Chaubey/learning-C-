@@ -20,7 +20,6 @@ int main()
           continue;
         }
         else{
-        cout<<a<<endl;
         cout<<(next=a+b)<<endl;
         a=b;
         b=next;
