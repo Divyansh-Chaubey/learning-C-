@@ -8,7 +8,7 @@ int main()
     cin>> term;
     for(int i=0;i<term;++i)
     {
-      sum=n+i*d;
+      sum=n+(i*d);
       cout<<sum<<endl;
     }
     
