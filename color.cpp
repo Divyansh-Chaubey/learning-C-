@@ -7,7 +7,6 @@ int main()
     cout<<"\n enter the second color";
     cin>> color1>>color2;
 
-    // the value of pink color is 5
     if (color1+color2==5)
     {
         cout<<"your color is ready";
