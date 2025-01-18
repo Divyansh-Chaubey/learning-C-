@@ -12,8 +12,10 @@ int sub(string a,string b){
         }
     }
 
-    if(j==n)
+    if(j==n){
         return 1;
+    }
+        
 
     return 0;
 }
@@ -22,7 +24,7 @@ int sub(string a,string b){
 int main()
 {
     string a="abcd",b="ec";
-    if(sub)
+    if(sub(a,b))
     cout<<"subse";
     else
     cout<<"not subse";
