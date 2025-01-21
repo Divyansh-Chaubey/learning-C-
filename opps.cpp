@@ -1,12 +1,13 @@
 # include<iostream>
 using namespace std;
 
-struct stu{
-    int roll;
-    string name;
-    string course;
-    stu  *p;
-    void ask (){
+class stu{
+   private:
+   int roll;
+   string name;
+   string course;
+   public:
+   stu (){
         cout<<"enter your rollno";
         cin>>roll;
         cout<<"enter your name";
@@ -25,13 +26,8 @@ struct stu{
 
 int main()
 {
+
+
     
-    stu a;
-    stu b;
-    a.p=&b;
-    b.p=NULL;
     return 0;
 }
-
-
-// self referencial pointer refers to the same structure inside in his own body  
