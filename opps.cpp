@@ -26,8 +26,7 @@ class stu{
 
 int main()
 {
-
-
+    
     
     return 0;
 }
