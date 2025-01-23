@@ -15,7 +15,7 @@ class stu{
         cout<<"enter your course";
         cin>>course;
     }
-
+    
     void dis(){
         cout<<roll<<endl;
         cout<<name<<endl;
@@ -26,7 +26,6 @@ class stu{
 
 int main()
 {
-    
     
     return 0;
 }
