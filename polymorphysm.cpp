@@ -1,6 +1,7 @@
 // polymorphysm means many forms 
 //  function ,operator,object 
 // type fo polymorphysm is compile and run time 
+// default parameter 
 // 
 
 
