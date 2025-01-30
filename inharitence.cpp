@@ -5,10 +5,10 @@ class one {
     int roll=1235;
 };
 
-class two :public one{
+class two : virtual public one{
 
 };
-class three:public one{
+class three:virtual public one{
 
 };
 class four:public two,public three{
@@ -25,3 +25,4 @@ int main()
 
 
 // virtual keyword is use to create a copy pointer which is use to throughr which the class can directly intaract with the main parent class 
+// diamond problem
